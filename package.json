@@ -1,0 +1,36 @@
+{
+    "name": "islamic-library",
+    "version": "1.0.0",
+    "description": "An NPM library providing Adkar and prayer times for Islamic applications.",
+    "main": "src/index.js",
+    "scripts": {
+      "test": "node test.js",
+      "start": "node src/index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/wickstudio/islamic-library.git"
+    },
+    "keywords": [
+      "islam",
+      "adkar",
+      "prayer",
+      "times",
+      "quran",
+      "muslim"
+    ],
+    "author": "Wick Studio <info@wickdev.xyz>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/wickstudio/islamic-library/issues"
+    },
+    "homepage": "https://github.com/wickstudio/islamic-library#readme",
+    "dependencies": {
+      "axios": "^0.21.1",
+      "node-fetch": "^2.6.1"
+    },
+    "devDependencies": {
+      "jest": "^26.6.3"
+    }
+  }
+  
